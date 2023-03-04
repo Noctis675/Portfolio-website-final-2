@@ -1,0 +1,47 @@
+
+  
+
+.navbar{
+    border: 0;
+    
+}
+ 
+
+.home {
+     
+  font-variant: small-caps;
+ color: #ff9100;
+ font-size: 45px;
+ font-weight: bolder;
+
+text-align: center;
+
+min-height: 100vh;
+
+padding-left: 4%;
+
+}
+
+.typing {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    
+    
+    
+  }
+
+    
+ 
+    
+    
+    
+    
+
+ 
+      
+      
+      
+      

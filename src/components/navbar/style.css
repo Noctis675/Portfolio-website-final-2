@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   
+  }
+  
+  
+  .circle {
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 0 70px;
+    border-radius: 50%;
+    cursor: default;
+  }
+  
+  .circle .inner-circle {
+    display: grid;
+    place-items: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #1d1e22;
+    font-size: 30px;
+  }
+  
+  .circle.aqua {
+    color: aqua;
+    background: conic-gradient(aqua 0 89%, #303238 89% 100%);
+  }
+  
+  .circle.pink {
+    color: rgb(244, 0, 0);
+    background: conic-gradient(rgb(255, 20, 20) 0 48%, #303238 48% 100%);
+  }
+  
+  .circle.gold {
+    color: gold;
+    background: conic-gradient(gold 0 80%, #303238 80% 100%);
+  }
+
+  .circle.green {
+    color: rgb(17, 255, 0);
+    background: conic-gradient(rgb(43, 255, 0) 0 70%, #303238 70% 100%);
+  }
+
+  .circle.silver {
+    color: rgb(238, 255, 0);
+    background: conic-gradient(rgb(238, 255, 0) 0 95%, #303238 95% 100%);
+  }
+
+  a:hover {
+    color: burlywood;
+    
+    
+    
+  
+  }
